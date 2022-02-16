@@ -4,7 +4,10 @@ import time
 import decimal
 from okex_risk_control import risk_control as rc
 from okex_get_instruments import ChooseInstruments
+
 # test
+
+
 
 time_limit_on = ccxt.bitfinex({'enableRateLimit': True})
 okexsimm = ccxt.okex({'apiKey': AccInfo.okexsim2.get('api_key'),
